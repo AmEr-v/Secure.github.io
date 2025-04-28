@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Safety - Secure Your Digital World</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+    }
+    header {
+      background-color: #161b22;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #58a6ff;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: #c9d1d9;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      color: #58a6ff;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 60px;
+    }
+    section h2 {
+      border-bottom: 2px solid #58a6ff;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+    section p, ul {
+      line-height: 1.8;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 20px;
+    }
+    .download-section {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #21262d;
+      border-radius: 12px;
+      margin-top: 60px;
+    }
+    .download-btn {
+      background-color: #238636;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .download-btn:hover {
+      background-color: #2ea043;
+    }
+    .back-to-top {
+      display: block;
+      width: fit-content;
+      margin: 50px auto 20px;
+      padding: 10px 20px;
+      background-color: #58a6ff;
+      color: #0d1117;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    .back-to-top:hover {
+      background-color: #1f6feb;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #161b22;
+      font-size: 0.9em;
+      color: #8b949e;
+    }
+  </style>
+</head>
+<body id="top">
+  <header>
+    <h1>🌐 Online Safety</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mobileSecurity.html">Mobile Security</a></li>
+        <li><a href="pc&laptop.html">PC & Laptop Security</a></li>
+        <li><a href="onlineSecurity.html">Online Safety</a></li>
+        <li><a href="resources.html">Resources & Tools</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Understanding Online Threats</h2>
+      <p>Every time you connect to the internet, you are exposed to a variety of threats such as phishing attacks, identity theft, malware, scams, and data breaches. Building good online habits helps you stay protected and keeps your private information safe.</p>
+    </section>
+
+    <section>
+      <h2>🔒 Essential Online Safety Practices</h2>
+      <ul>
+        <li><strong>Use Strong, Unique Passwords:</strong><br>
+          Create passwords that are long (at least 12 characters), random, and unique for each account. Use a password manager like Bitwarden or 1Password to manage them safely.
+        </li>
+
+        <li><strong>Enable Two-Factor Authentication (2FA):</strong><br>
+          Even if someone steals your password, 2FA protects your accounts by requiring a second step (like a code from your phone or an authenticator app) to log in.
+        </li>
+
+        <li><strong>Think Before You Click:</strong><br>
+          Hover over links before clicking to see where they really go. Avoid clicking suspicious links in emails, text messages, or on social media.
+        </li>
+
+        <li><strong>Use Secure Websites:</strong><br>
+          Only enter personal or payment information on websites that have HTTPS (look for the padlock symbol in the address bar).
+        </li>
+
+        <li><strong>Limit Social Media Sharing:</strong><br>
+          Avoid oversharing personal information (birthdate, address, travel plans) on social platforms. Hackers use this data for identity theft and targeted attacks.
+        </li>
+
+        <li><strong>Adjust Privacy Settings:</strong><br>
+          Review the privacy settings on your social media, email, and Google account. Restrict who can see your posts, location, and contact info.
+        </li>
+
+        <li><strong>Keep Devices Updated:</strong><br>
+          Update your phone, computer, browsers, and apps as soon as updates become available to fix security vulnerabilities.
+        </li>
+
+        <li><strong>Use Antivirus and Anti-Malware Tools:</strong><br>
+          Programs like Malwarebytes and Bitdefender can detect and remove threats from infected downloads or malicious sites.
+        </li>
+
+        <li><strong>Be Careful with Public Wi-Fi:</strong><br>
+          Avoid logging into sensitive accounts (like online banking) when using public Wi-Fi unless you’re protected by a VPN.
+        </li>
+
+        <li><strong>Backup Your Data:</strong><br>
+          Regularly backup your important files to an external hard drive or encrypted cloud storage to protect against ransomware or accidental loss.
+        </li>
+      </ul>
+    </section>
+
+    <section class="download-section">
+      <h2>📥 Download Full Online Safety Guide</h2>
+      <p>Learn step-by-step strategies to protect yourself online. Download our complete Online Safety Checklist!</p>
+      <button class="download-btn" onclick="downloadChecklist()">Download Online Safety PDF</button>
+    </section>
+
+    <a class="back-to-top" href="#top">⬆️ Back to Top</a>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Secure Your Digital World</p>
+  </footer>
+
+  <script>
+    function downloadChecklist() {
+      alert('Downloadable file will be available soon!');
+    }
+  </script>
+</body>
+</html>
